@@ -21,7 +21,8 @@ death.railcraft.crusher.7=%s se ha hecho papilla
 death.railcraft.crusher.8=%s tenia que haber leído el manual
 
 death.railcraft.steam.1=%s quedó cocinado, agradable y jugoso
-death.railcraft.steam.2=%s no es inmune a las altas temperaturas, pese a las afirmaciones contrarias
+death.railcraft.steam.2=%s no 
+es inmune a las altas temperaturas, pese a las afirmaciones contrarias
 death.railcraft.steam.3=%s descubrió cuán doloroso puede ser el vapor
 death.railcraft.steam.4=%s tuvo un accidente industrial
 death.railcraft.steam.5=%s probablemente no debería haberse metido allí
@@ -125,8 +126,12 @@ item.railcraft.entity.mow.undercutter.name=Vagoneta Reemplazadora
 item.railcraft.entity.mow.undercutter.tips=Reemplaza\n los bloques debajo de la vía
 item.railcraft.entity.cart.work.name=Vagoneta de Trabajo
 
-item.railcraft.dust.charcoal.name=Polvo de Carbón
+item.railcraft.concrete.name=Bolsa de Cemento
+
+item.railcraft.dust.charcoal.name=Polvo de Carbón Vegetal
+item.railcraft.dust.coal.name=Polvo de Carbón
 item.railcraft.dust.obsidian.name=Polvo de Obsidiana
+item.railcraft.dust.ender.name=Polvo de Ender
 item.railcraft.dust.saltpeter.name=Salitre
 item.railcraft.dust.sulfur.name=Sulfuro
 
@@ -153,28 +158,51 @@ item.railcraft.fluid.bottle.steam.name=Botella de Vapor
 
 item.railcraft.fuel.coke.name=Fuel de Carbón
 
+item.railcraft.gear.bronze.name=Engranaje de Bronce
+item.railcraft.gear.bushing.name=Buje para Engranaje de Estaño
+item.railcraft.gear.gold.plate.name=Engranaje de Oro-Plata
+item.railcraft.gear.invar.name=Engranaje de Invar
+item.railcraft.gear.iron.name=Engranaje de Hierro
+item.railcraft.gear.steel.name=Engranaje de Acero
+
+item.railcraft.ingot.bronze.name=Lingote de Bronce
 item.railcraft.ingot.copper.name=Lingote de Cobre
+item.railcraft.ingot.invar.name=Lingote de Invar
 item.railcraft.ingot.lead.name=Lingote de Plomo
+item.railcraft.ingot.nickel.name=Lingote de Níquel
+item.railcraft.ingot.silver.name=Lingote de Plata
 item.railcraft.ingot.steel.name=Lingote de Acero
 item.railcraft.ingot.tin.name=Lingote de Estaño
+item.railcraft.ingot.zinc.name=Lingote de Zinc
 
+item.railcraft.nugget.bronze.name=Pepita de Bronce
 item.railcraft.nugget.copper.name=Pepita de Cobre
+item.railcraft.nugget.invar.name=Pepita de Invar
 item.railcraft.nugget.iron.name=Pepita de Hierro
 item.railcraft.nugget.lead.name=Pepita de Plomo
+item.railcraft.nugget.nickel.name=Pepita de Níquel
+item.railcraft.nugget.silver.name=Pepita de Plata
 item.railcraft.nugget.steel.name=Pepita de Acero
 item.railcraft.nugget.tin.name=Pepita de Estaño
+item.railcraft.nugget.zinc.name=Pepita de Zinc
+
+item.railcraft.plate.bronze.name=Placa de Bronce
+item.railcraft.plate.copper.name=Placa de Cobre
+item.railcraft.plate.gold.name=Placa de Oro
+item.railcraft.plate.invar.name=Placa de Invar
+item.railcraft.plate.iron.name=Placa de Hierro
+item.railcraft.plate.lead.name=Placa de Plomo
+item.railcraft.plate.nickel.name=Placa de Níquel
+item.railcraft.plate.silver.name=Placa de Plata
+item.railcraft.plate.steel.name=Placa de Acero
+item.railcraft.plate.tin.name=Placa de Estaño
+item.railcraft.plate.zinc.name=Placa de Zinc
 
 item.railcraft.bleached.clay.name=Arcilla Blanqueada
 item.railcraft.circuit.controller.name=Circuito de Control
 item.railcraft.circuit.receiver.name=Circuito Receptor
 item.railcraft.circuit.signal.name=Circuito de Señal
-item.railcraft.gear.bushing.name=Buje para Engranaje de Estaño
-item.railcraft.gear.gold.plate.name=Engranaje de Oro-Plata
-item.railcraft.gear.iron.name=Engranaje de Hierro
-item.railcraft.gear.steel.name=Engranaje de Acero
-item.railcraft.plate.iron.name=Placa de Hierro
-item.railcraft.plate.steel.name=Placa de Acero
-item.railcraft.plate.tin.name=Placa de Estaño
+
 item.railcraft.rail.advanced.name=Riel Avanzado
 item.railcraft.rail.electric.name=Riel Eléctrico
 item.railcraft.rail.reinforced.name=Riel Reforzado
@@ -590,6 +618,7 @@ tile.railcraft.brick.sandy.ornate.name=Piedra Arenosa Ornamentada
 
 tile.railcraft.generic_brick_infernal.name=Ladrillos Infernales (Obsoleto)
 tile.railcraft.generic_brick_sandy.name=Bloque Arenoso (Obsoleto)
+tile.railcraft.generic_bronze.name=Bloque de Bronce
 tile.railcraft.generic_coke.name=Bloque de Fuel de Carbón
 tile.railcraft.generic_coke.tips=32,000 Unidades de Combustible
 tile.railcraft.generic_concrete.name=Bloque de Cemento
@@ -597,11 +626,15 @@ tile.railcraft.generic_copper.name=Bloque de Cobre
 tile.railcraft.generic_creosote.name=Bloque de Madera de Creosota
 tile.railcraft.generic_crushed_obsidian.name=Obsidiana Triturada
 tile.railcraft.generic_crushed_obsidian.tips=Previene Nacimiento de Mobs
+tile.railcraft.generic_invar.name=Bloque de INvar
 tile.railcraft.generic_lead.name=Bloque de Plomo
+tile.railcraft.generic_nickel.name=Bloque de Níquel
+tile.railcraft.generic_silver.name=Bloque de Plata
 tile.railcraft.generic_steel.name=Bloque de Acero
 tile.railcraft.generic_stone_abyssal.name=Piedra Abismal
 tile.railcraft.generic_stone_quarried.name=Piedra de Cantera
 tile.railcraft.generic_tin.name=Bloque de Estaño
+tile.railcraft.generic_zinc.name=Bloque de Zinc
 
 tile.railcraft.detector.advanced.name=Detector - Avanzado
 tile.railcraft.detector.age.name=Detector - Era
@@ -722,6 +755,13 @@ tile.railcraft.manipulator.unloader.item.tips=Descarga objetos de vagonetas\n§o
 tile.railcraft.manipulator.unloader.fluid.name=Descargador de Líquidos
 tile.railcraft.manipulator.unloader.fluid.tips=Descarga líquidos de vagonetas\n§o§c- Poner debajo de la vía -
 
+tile.railcraft.ore.metal.copper.name=Mineral de Cobre
+tile.railcraft.ore.metal.lead.name=Mineral de Plomo
+tile.railcraft.ore.metal.nickel.name=Mineral de Níquel
+tile.railcraft.ore.metal.silver.name=Mineral de Plata
+tile.railcraft.ore.metal.tin.name=Mineral de Estaño
+tile.railcraft.ore.metal.zinc.name=Mineral de Zinc
+
 tile.railcraft.ore.dark.diamond.name=Mineral de Diamante Oscuro
 tile.railcraft.ore.dark.emerald.name=Mineral de Esmeralda Oscura
 tile.railcraft.ore.dark.lapis.name=Mineral de Lapislázuli Oscuro
@@ -731,7 +771,10 @@ tile.railcraft.ore.metal.poor.copper.name=Mineral de Cobre Pobre
 tile.railcraft.ore.metal.poor.gold.name=Mineral del Oro Pobre
 tile.railcraft.ore.metal.poor.iron.name=Mineral de Hierro Pobre
 tile.railcraft.ore.metal.poor.lead.name=Mineral de Plomo Pobre
+tile.railcraft.ore.metal.poor.nickel.name=Mineral de Níquel Pobre
+tile.railcraft.ore.metal.poor.silver.name=Mineral de Plata Pobre
 tile.railcraft.ore.metal.poor.tin.name=Mineral de Estaño Pobre
+tile.railcraft.ore.metal.poor.zinc.name=Mineral de Zinc Pobre
 tile.railcraft.ore.saltpeter.name=Mineral de Salitre
 tile.railcraft.ore.sulfur.name=Mineral de Azufre
 
